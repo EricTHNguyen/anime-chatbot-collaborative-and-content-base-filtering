@@ -1,0 +1,164 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [ "Hi there", "How are you", "Is anyone there", "Hello", "Hi" ],
+      "responses": [ "Welcome to AniHub Chatbot", "Hello, Welcome to AniHub Chatbot" ],
+      "context_set": [ "" ]
+    },
+    {
+      "tag": "Genre",
+      "patterns": [ "I'm looking for something to watch", "I want to watch something new", "Something new please" ],
+      "responses": [ "Okay, I'll ask a series of question.", "I will ask some questions to help you find what you want." ]
+
+    },
+    {
+      "tag": "Questions",
+      "patterns": [ "Sounds good", "Okay", "Lets do it" ],
+      "responses": [ "What are you in the mood for: Action-packed, Funny, Scary, Futuristic, Sad?", "Out of these words which one appeals to you?(Action-packed, Funny, Scary, Mature, Sad)" ]
+
+    },
+    {
+      "tag": "Help",
+      "patterns": [ "What do you do?", "I need help", "help" ],
+      "responses": [ "I am a chatbot designed to help you find an anime to watch, Ask me for something to watch." ]
+
+    },
+    {
+      "tag": "Action",
+      "patterns": [ "Action-packed", "Action" ],
+      "responses": [ "Okay, What kind of action do you want?(Fights, Sports)" ]
+
+    },
+    {
+      "tag": "Fights",
+      "patterns": [ "Fights" ],
+      "responses": [ "Are you looking for something shonen or mature?" ]
+
+    },
+    {
+      "tag": "Shonen",
+      "patterns": [ "Shonen" ],
+      "responses": [ "Here are a some good shonen: Boku no hero, Naruto, One piece,Bleach,Demon Slayer, and Fairy tail" ]
+
+    },
+    {
+      "tag": "Mature",
+      "patterns": [ "Mature" ],
+      "responses": [ "Here are some good Mature Anime: Akame ga Kill!, Psycho-Pass, Tokyo Ghoul, Cowboy Bebop, and Overlord" ]
+
+    },
+    {
+      "tag": "Sport",
+      "patterns": [ "Sports", "Sport" ],
+      "responses": [ "What sport are you feeling?(Basketball,Soccer, Tennis, Swimming,Racing, Baseball, Football, or Boxing)" ]
+
+    },
+
+    {
+      "tag": "Basketball",
+      "patterns": [ "Basketballs", "Basketball", "Bball" ],
+      "responses": [ "Here are some basketball animes: Kuroko no basket and Slam Dunk" ]
+
+    },
+
+    {
+      "tag": "Soccer",
+      "patterns": [ "Soccer", "Futbol" ],
+      "responses": [ "Here are some soccer animes: Inazuma Eleven,Hungry Heart: Wild Striker,Giant Killing, Area no Kishi, Whistle, Aoki Densetsu Shoot!, and Ginga e Kickoff!)" ]
+
+    },
+
+    {
+      "tag": "Tennis",
+      "patterns": [ "Tennis" ],
+      "responses": [ "Here are some soccer animes: Prince of Tennis and Baby Steps" ]
+
+    },
+    {
+      "tag": "Swimming",
+      "patterns": [ "Swimming", "Swim" ],
+      "responses": [ "Here are some Swimming animes: Free! and Dive" ]
+
+    },
+    {
+      "tag": "Racing",
+      "patterns": [ "Race", "Racing" ],
+      "responses": [ "Here are some Racing animes: Initial D, Air Gear, Strive:Alternative, and Yowamushi Pedal" ]
+
+    },
+
+    {
+      "tag": "Baseball",
+      "patterns": [ "Baseball", "Baseballs" ],
+      "responses": [ "Here are some Baseball animes: Diamond no Ace, and Cross Game" ]
+
+    },
+    {
+      "tag": "Football",
+      "patterns": [ "Football", "Footballs" ],
+      "responses": [ "Here is a Football animes: Eyeshield 21" ]
+
+    },
+    {
+      "tag": "Boxing",
+      "patterns": [ "Boxing" ],
+      "responses": [ "Here are some Boxing animes: Hajime No Ippo, Ashita no Joe,Levius,and Megalobox" ]
+
+    },
+
+    {
+      "tag": "Funny",
+      "patterns": [ "Funny" ],
+      "responses": [ "Are you looking for something more Slice of life, Parody, or Romcom?" ]
+
+    },
+
+
+    {
+      "tag": "Slice of life",
+      "patterns": [ "Slice of life", "Daily life" ],
+      "responses": [ "Here are some Slice of Life animes:Anohana,K-On,and Hyouka" ]
+
+    },
+    {
+      "tag": "Romcom",
+      "patterns": [ "RomCom", "Romance Comedy" ],
+      "responses": [ "Here are some RomCom animes:Nisekoi, Kaguya-sama Love is war, and My Teen Romantic Snafu " ]
+
+    },
+    {
+      "tag": "Scary",
+      "patterns": [ "Scary" ],
+      "responses": [ "Are you looking for something more Psychological, or SuperNatural" ]
+
+    },
+
+    {
+      "tag": "Psychological",
+      "patterns": [ "Psychological" ],
+      "responses": [ "Here are some Psychological animes: Monster, Btoom, Promise Neverland, and Serial Experiments Lain" ]
+
+    },
+
+
+    {
+      "tag": "SuperNatural",
+      "patterns": [ " SuperNatural", "Super Natural" ],
+      "responses": [ "Here are some  SuperNatural animes:Another,Black Butler,Deadman Wonderland,Elfen Leid,and Death Note" ]
+
+    },
+    {
+      "tag": "Futuristic",
+      "patterns": [ "Futuristic" ],
+      "responses": [ "Here are some Futuristic animes:Darling in the Franxx, Dr.Stone, and Stein Gate " ]
+
+    },
+    {
+      "tag": "Sad",
+      "patterns": [ "Futuristic" ],
+      "responses": [ "Here are some Sad animes:Clannad, NHK ni Youkoso!, and March Comes in Like a Lion " ]
+
+    }
+  ]
+}
